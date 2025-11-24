@@ -1,0 +1,111 @@
+.hero-banner {
+    background-image: url('unfocussed-winter-background-with-snowflakes_1393-271.avif');
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10 20px;
+    gap:20;
+    box-sizing: border-box;
+ }
+ .logo {
+    height: 120px;
+    width: auto;
+  }
+  .nameweb{
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+    text-align: center;
+    flex-grow: 1;
+  }
+ .button-container{
+    text-align: center;
+  }
+  button{
+    background-color:darkblue;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    padding: 10px 15px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.gallery{
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.product-link{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    border: lightblue 2px solid;
+    font-size: 1.2rem;
+    font-style: bold;
+    padding: 10px;
+    text-align: center;
+}
+.product-item {
+ 
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: lightblue 3px solid;
+}
+.product-item p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px; 
+  margin-bottom: 5px;
+}
+.product-row {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 15px; 
+  margin-top: 20px; 
+}
+.product-card {
+  flex-basis: 18%; 
+  min-width: 200px; 
+
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden; 
+}
+.product-card img {
+  width: 100;
+  height: 300px; 
+  object-fit: cover; 
+}
+.sale-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.social-logo {
+    width: 20px; 
+    height: 20px;
+}
+.characteristics {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 10px;
+    color: 3333333;
+    font-style: bold;
+}
